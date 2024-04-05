@@ -6,6 +6,10 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+  --track: #111111;
+  --thumb: rgb(59, 130, 246);
+  --thumb-hover: rgb(31, 107, 221);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,4 +34,20 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+*::-webkit-scrollbar {
+  width: 14px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--track);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--thumb);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--thumb-hover);
 }
