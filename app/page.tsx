@@ -1,17 +1,29 @@
 import About from "@/components/About";
 import { BackgroundBeams } from "@/components/Background";
-import Hero from "@/components/Hero";
+import Personal from "@/components/Personal";
 import Navbar from "@/components/Navbar";
+import MobileNavbar from "@/components/MobileNavbar";
+import Hero from "@/components/Hero";
+import Experience from "@/components/Experience";
 
 export default function Home() {
   return (
-    <div className="flex-col h-full snap-y snap-mandatory">
-      <Navbar />
-      <Hero />
-      <section id="about" className="snap-center">
-        <About />
-      </section>
-      <BackgroundBeams className="-z-[100] hidden sm:inline" />
+    <div className="flex flex-col md:flex-row h-full snap-y snap-mandatory">
+      <MobileNavbar/>
+      <Personal/>
+      <div className="flex flex-col w-full h-full">
+        <Navbar />
+        <section id="hero" className="snap-center">
+          <Hero/>
+        </section>
+        <section id="about" className="snap-center">
+          <About />
+        </section>
+        <section id="experience" className="snap-center">
+          <Experience/>
+        </section>
+      </div>
+      <BackgroundBeams className="-z-[100] hidden fixed md:inline" />
     </div>
   );
 }
