@@ -5,7 +5,7 @@ import { FiExternalLink } from "react-icons/fi";
 const Projects = () => {
   return (
     <motion.div
-      className="w-full h-screen max-w-7xl mx-auto mt-32 px-3"
+      className="w-full h-full max-w-7xl mx-auto mt-32 px-3"
       whileInView={{ opacity: 1 }}
       initial={{ opacity: 0 }}
       transition={{ duration: 1.5 }}

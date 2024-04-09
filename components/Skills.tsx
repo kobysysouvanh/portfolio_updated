@@ -13,7 +13,7 @@ import { SiPrisma } from "react-icons/si";
 const Skills = () => {
   return (
     <motion.div
-      className="w-full h-screen max-w-7xl mx-auto mt-32 px-3 overflow-x-hidden"
+      className="w-full h-full max-w-7xl mx-auto mt-32 px-3 overflow-x-hidden"
       whileInView={{ opacity: 1 }}
       initial={{ opacity: 0 }}
       transition={{ duration: 1.5 }}

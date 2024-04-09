@@ -7,12 +7,12 @@ import { motion } from "framer-motion";
 const Personal = () => {
   return (
     <motion.div
-      className="w-full md:w-96 px-6 h-screen flex flex-col md:sticky top-0 md:justify-between justify-center items-center md:border-r md:border-neutral-800 md:bg-neutral-600 md:bg-opacity-10 backdrop-blur-sm py-8"
+      className="w-full xl:w-96 px-6 h-[40rem] xl:h-screen flex flex-col xl:sticky xl:top-0 xl:justify-between justify-center items-center xl:border-r xl:border-neutral-800 xl:bg-neutral-600 xl:bg-opacity-10 backdrop-blur-sm py-8"
       initial={{ x: -100, opacity: 0 }}
       animate={{ x: 1, opacity: 1 }}
       transition={{ duration: 0.5, }}
     >
-      <div className="w-full h-full flex flex-col justify-center items-center rounded-xl bg-neutral-600 bg-opacity-10 border-2 border-neutral-800 md:bg-transparent md:border-none md:justify-between">
+      <div className="w-full h-full flex flex-col justify-center items-center rounded-xl bg-neutral-600 bg-opacity-10 border-2 border-neutral-800 xl:bg-transparent xl:border-none xl:justify-between">
         <div className="flex flex-col justify-center items-center text-center">
           <Image
             src="/avatar.jpg"
@@ -21,7 +21,7 @@ const Personal = () => {
             height={200}
             className="rounded-full"
           />
-          <p className="text-5xl md:text-3xl mt-12">Koby Sysouvanh</p>
+          <p className="text-5xl xl:text-3xl mt-12">Koby Sysouvanh</p>
           <p className="text-xl md:text-md font-light text-blue-500 mt-4">
             Full-Stack Developer
           </p>

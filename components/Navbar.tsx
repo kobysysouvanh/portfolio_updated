@@ -24,7 +24,7 @@ const nav = [
 const Navbar = () => {
   return (
     <motion.div
-      className="hidden md:inline h-20 w-full z-[999] bg-neutral-600 backdrop-blur-sm bg-clip-padding backdrop-filter bg-opacity-10 sticky top-0 border-b border-neutral-800 border-l"
+      className="hidden xl:inline h-20 w-full z-[999] bg-neutral-600 backdrop-blur-sm bg-clip-padding backdrop-filter bg-opacity-10 sticky top-0 border-b border-neutral-800 border-l"
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5, delay: .5 }}

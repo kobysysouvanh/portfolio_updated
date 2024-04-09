@@ -39,10 +39,10 @@ const Hero = () => {
       transition={{ duration: 0.5, delay: 1.2 }}
     >
       <div className="space-y-10">
-        <h1 className="text-3xl md:text-4xl font-extrabold mt-32">
+        <h1 className="text-3xl xl:text-4xl font-extrabold mt-32 px-10 xl:p-0">
           Hello, my name is Koby
         </h1>
-        <p className="text-2xl md:text-3xl font-bold">
+        <p className="text-2xl xl:text-3xl font-bold px-10 xl:px-0">
           I am a &nbsp;
           <AnimatePresence>
             <motion.span
