@@ -18,7 +18,7 @@ const Skills = () => {
       initial={{ opacity: 0 }}
       transition={{ duration: 1.5 }}
     >
-      <div className="border-2 border-neutral-800 bg-neutral-600 bg-opacity-10 backdrop-blur-sm p-3 rounded-xl">
+      <div className="border-2 border-neutral-800 bg-neutral-600 bg-opacity-10 backdrop-blur-sm p-3 py-6 rounded-xl">
         <h1 className="text-3xl font-bold text-center mb-6 mt-3">Skills</h1>
         <div className="grid grid-cols-3 gap-3 md:flex md:justify-evenly items-center text-center">
           <div className="flex flex-col items-center">

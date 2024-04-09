@@ -10,7 +10,7 @@ const Projects = () => {
       initial={{ opacity: 0 }}
       transition={{ duration: 1.5 }}
     >
-      <div className="border-2 border-neutral-800 bg-neutral-600 bg-opacity-10 backdrop-blur-sm p-3 rounded-xl">
+      <div className="border-2 border-neutral-800 bg-neutral-600 bg-opacity-10 backdrop-blur-sm p-3 py-6 rounded-xl">
         <h1 className="text-3xl font-bold text-center mb-10 mt-3">Projects</h1>
         <div className="flex flex-col md:flex-row items-center justify-center gap-5">
           <div className="w-full border h-full bg-black border-neutral-800 rounded-xl max-w-[30rem]">
