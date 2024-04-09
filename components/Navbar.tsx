@@ -27,7 +27,7 @@ const Navbar = () => {
       className="hidden md:inline h-20 w-full z-[999] bg-neutral-600 backdrop-blur-sm bg-clip-padding backdrop-filter bg-opacity-10 sticky top-0 border-b border-neutral-800 border-l"
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.5, delay: 1.2 }}
+      transition={{ duration: 0.5, delay: .5 }}
     >
       <div className="max-w-7xl items-center justify-between mx-auto h-20 px-6 hidden sm:flex">
         <div className="text-2xl w-32">KS</div>

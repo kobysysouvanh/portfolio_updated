@@ -10,7 +10,7 @@ const Personal = () => {
       className="w-full md:w-96 px-6 h-screen flex flex-col md:sticky top-0 md:justify-between justify-center items-center md:border-r md:border-neutral-800 md:bg-neutral-600 md:bg-opacity-10 backdrop-blur-sm py-8"
       initial={{ x: -100, opacity: 0 }}
       animate={{ x: 1, opacity: 1 }}
-      transition={{ duration: 0.5, delay: 0.5 }}
+      transition={{ duration: 0.5, }}
     >
       <div className="w-full h-full flex flex-col justify-center items-center rounded-xl bg-neutral-600 bg-opacity-10 border-2 border-neutral-800 md:bg-transparent md:border-none md:justify-between">
         <div className="flex flex-col justify-center items-center text-center">
@@ -31,11 +31,13 @@ const Personal = () => {
             url="https://www.linkedin.com/in/kobysysouvanh/"
             target="_blank"
             bgColor="transparent"
+            className="hover:bg-neutral-800 rounded-full transition-all duration-500 ease-in-out"
           />
           <SocialIcon
             url="https://github.com/kobysysouvanh"
             target="_blank"
             bgColor="transparent"
+            className="hover:bg-neutral-800 rounded-full transition-all duration-500 ease-in-out"
           />
         </div>
       </div>

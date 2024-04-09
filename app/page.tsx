@@ -1,3 +1,4 @@
+"use client";
 import About from "@/components/About";
 import { BackgroundBeams } from "@/components/Background";
 import Personal from "@/components/Personal";
@@ -6,25 +7,30 @@ import MobileNavbar from "@/components/MobileNavbar";
 import Hero from "@/components/Hero";
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
+
 
 export default function Home() {
   return (
     <div className="flex flex-col md:flex-row h-full snap-y snap-mandatory">
-      <MobileNavbar/>
-      <Personal/>
+      <MobileNavbar />
+      <Personal />
       <div className="flex flex-col w-full h-full">
         <Navbar />
         <section id="hero" className="snap-center">
-          <Hero/>
+          <Hero />
         </section>
         <section id="about" className="snap-center">
           <About />
         </section>
         <section id="experience" className="snap-center">
-          <Experience/>
+          <Experience />
         </section>
         <section id="skills" className="snap-center">
-          <Skills/>
+          <Skills />
+        </section>
+        <section id="projects" className="snap-center">
+          <Projects />
         </section>
       </div>
       <BackgroundBeams className="-z-[100] hidden fixed md:inline" />

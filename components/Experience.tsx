@@ -10,8 +10,8 @@ const Experience = () => {
       initial={{ opacity: 0 }}
       transition={{ duration: 1.5 }}
     >
-      <div className="border-2 border-neutral-800 bg-neutral-600 bg-opacity-10 backdrop-blur-sm p-3 rounded-lg">
-        <h1 className="text-3xl font-bold text-center mb-6">Experience</h1>
+      <div className="border-2 border-neutral-800 bg-neutral-600 bg-opacity-10 backdrop-blur-sm p-3 rounded-xl">
+        <h1 className="text-3xl font-bold text-center mb-6 mt-3">Experience</h1>
         <div className="space-y-8">
           <div className="flex flex-col">
             <div className="flex flex-row justify-between items-center">

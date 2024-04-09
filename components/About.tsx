@@ -10,8 +10,8 @@ const About = () => {
     initial={{ opacity: 0 }}
     transition={{ duration: 1.5 }}
     >
-      <div className="border-2 border-neutral-800 bg-neutral-600 bg-opacity-10 backdrop-blur-sm p-3 rounded-lg">
-        <h1 className="text-3xl font-bold text-center mb-6">About Me</h1>
+      <div className="border-2 border-neutral-800 bg-neutral-600 bg-opacity-10 backdrop-blur-sm p-3 rounded-xl">
+        <h1 className="text-3xl font-bold text-center mb-6 mt-3">About Me</h1>
         <p className="text-xl mt-4 font-light">
           My name is Koby Sysouvanh. I am a graduate from Kennesaw State
           University where I have obtained my Bachelors of Science Degree in
