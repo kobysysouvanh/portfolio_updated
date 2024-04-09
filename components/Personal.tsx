@@ -13,7 +13,7 @@ const Personal = () => {
       transition={{ duration: 0.5, }}
     >
       <div className="w-full h-full flex flex-col justify-center items-center rounded-xl bg-neutral-600 bg-opacity-10 border-2 border-neutral-800 xl:bg-transparent xl:border-none xl:justify-between">
-        <div className="flex flex-col justify-center items-center text-center">
+        <div className="flex flex-col justify-center items-center text-center xl:pt-16">
           <Image
             src="/avatar.jpg"
             alt="avatar"
