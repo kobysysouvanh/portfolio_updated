@@ -35,7 +35,7 @@ const Experience = () => {
               <h2 className="text-2xl font-semibold">
                 Reconciliation Specialist
               </h2>
-              <h3 className="text-lg font-semibold">Jan 2022 - Apr 2024</h3>
+              <h3 className="text-lg font-semibold">Jan 2022 - Apr 2022</h3>
             </div>
             <p className="mt-2">
               <span className="font-semibold">Company:</span> S Phase

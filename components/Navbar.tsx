@@ -29,7 +29,7 @@ const Navbar = () => {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5, delay: .5 }}
     >
-      <div className="max-w-7xl items-center justify-between mx-auto h-20 px-6 hidden sm:flex">
+      <div className="max-w-7xl items-center justify-between mx-auto h-20 px-6 hidden xl:p-0  sm:flex">
         <div className="text-2xl w-32">KS</div>
         <div className="flex gap-6 rounded-full h-12 items-center text-center border-neutral-600 border p-4 backdrop-blur-sm">
           {nav.map((item) => (
