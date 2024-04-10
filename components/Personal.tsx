@@ -9,7 +9,7 @@ const Personal = () => {
     <motion.div
       className="w-full xl:w-96 px-6 h-[40rem] xl:h-screen flex flex-col xl:sticky xl:top-0 xl:justify-between justify-center items-center xl:border-r xl:border-neutral-800 xl:bg-neutral-600 xl:bg-opacity-10 backdrop-blur-sm py-8"
       initial={{ x: -100, opacity: 0 }}
-      animate={{ x: 1, opacity: 1 }}
+      animate={{ x: 0, opacity: 1 }}
       transition={{ duration: 0.5, }}
     >
       <div className="w-full h-full flex flex-col justify-center items-center rounded-xl bg-neutral-600 bg-opacity-10 border-2 border-neutral-800 xl:bg-transparent xl:border-none xl:justify-between">
@@ -23,7 +23,7 @@ const Personal = () => {
           />
           <p className="text-5xl xl:text-3xl mt-12">Koby Sysouvanh</p>
           <p className="text-xl md:text-md font-light text-blue-500 mt-4">
-            Full-Stack Developer
+            Full Stack Developer
           </p>
         </div>
         <div className="flex bg-neutral-600 bg-opacity-10 backdrop-blur-sm items-center justify-center rounded-full px-2 py-2 gap-3 mt-4 border-2 border-neutral-500/30">

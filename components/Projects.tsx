@@ -5,14 +5,14 @@ import { FiExternalLink } from "react-icons/fi";
 const Projects = () => {
   return (
     <motion.div
-      className="w-full h-full max-w-7xl mx-auto mt-32 px-3"
+      className="w-full h-full max-w-7xl mx-auto mt-32 px-3 2xl:px-0"
       whileInView={{ opacity: 1 }}
       initial={{ opacity: 0 }}
       transition={{ duration: 1.5 }}
     >
       <div className="border-2 border-neutral-800 bg-neutral-600 bg-opacity-10 backdrop-blur-sm p-3 py-6 rounded-xl">
         <h1 className="text-3xl font-bold text-center mb-10 mt-3">Projects</h1>
-        <div className="flex flex-col md:flex-row items-center justify-center gap-5">
+        <div className="grid lg:grid-cols-3 items-center justify-center gap-5 overflow-auto">
           <div className="w-full border h-full bg-black border-neutral-800 rounded-xl max-w-[30rem]">
             <div className="w-full h-full p-6 flex flex-col">
               <div className="flex items-center text-center justify-between mb-3">
@@ -23,9 +23,9 @@ const Projects = () => {
               </div>
               <div className="text-base !m-0 !p-0 font-normal">
                 <span className="text-slate-400">
-                  Realtime messaging application created using Next.js, TypeScript, MongoDB, and
-                  Pusher. Includes many features
-                  such as direct messaging, group chats, authentication, image
+                  Realtime messaging application created using Next.js,
+                  TypeScript, MongoDB, and Pusher. Includes many features such
+                  as direct messaging, group chats, authentication, image
                   uploading, and more.
                 </span>
               </div>
@@ -103,8 +103,8 @@ const Projects = () => {
               </div>
               <div className="text-base !m-0 !p-0 font-normal">
                 <span className="text-slate-400 ">
-                  Home rental application that includes full
-                  responsiveness, authentications, listing of properties, search bar filtering,
+                  Home rental application that includes full responsiveness,
+                  authentications, listing of properties, search bar filtering,
                   booking/reservation system, pricing calculation, and
                   cancellation of reservations.
                 </span>

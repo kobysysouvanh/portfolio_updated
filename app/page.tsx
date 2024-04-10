@@ -10,30 +10,27 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 
-
 export default function Home() {
   return (
-    <div className="flex flex-col xl:flex-row h-full snap-y snap-mandatory">
+    <div className="flex flex-col xl:flex-row w-full h-full">
       <MobileNavbar />
       <Personal />
       <div className="flex flex-col w-full h-full">
         <Navbar />
-        <section id="hero" className="snap-center">
-          <Hero />
-        </section>
-        <section id="about" className="snap-center">
+        <Hero />
+        <section id="about">
           <About />
         </section>
-        <section id="experience" className="snap-center">
+        <section id="experience">
           <Experience />
         </section>
-        <section id="skills" className="snap-center">
+        <section id="skills">
           <Skills />
         </section>
-        <section id="projects" className="snap-center">
+        <section id="projects">
           <Projects />
         </section>
-        <section id="contact" className="snap-center">
+        <section id="contact">
           <Contact />
         </section>
       </div>

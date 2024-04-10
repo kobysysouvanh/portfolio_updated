@@ -1,14 +1,14 @@
-"use client"
+"use client";
 import React from "react";
 import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <motion.div 
-    className="w-full h-full max-w-7xl mx-auto mt-32 px-3 overflow-x-hidden"
-    whileInView={{ opacity: 1}}
-    initial={{ opacity: 0 }}
-    transition={{ duration: 1.5 }}
+    <motion.div
+      className="w-full h-full max-w-7xl mx-auto mt-32 px-3 2xl:px-0"
+      whileInView={{ opacity: 1 }}
+      initial={{ opacity: 0 }}
+      transition={{ duration: 1.5 }}
     >
       <div className="border-2 border-neutral-800 bg-neutral-600 bg-opacity-10 backdrop-blur-sm p-3 py-6 rounded-xl">
         <h1 className="text-3xl font-bold text-center mb-6 mt-3">About Me</h1>

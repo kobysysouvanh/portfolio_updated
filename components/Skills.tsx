@@ -9,18 +9,17 @@ import { SiMongodb } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { SiPrisma } from "react-icons/si";
 
-
 const Skills = () => {
   return (
     <motion.div
-      className="w-full h-full max-w-7xl mx-auto mt-32 px-3 overflow-x-hidden"
+      className="w-full h-full max-w-7xl mx-auto mt-32 px-3 2xl:px-0"
       whileInView={{ opacity: 1 }}
       initial={{ opacity: 0 }}
       transition={{ duration: 1.5 }}
     >
       <div className="border-2 border-neutral-800 bg-neutral-600 bg-opacity-10 backdrop-blur-sm p-3 py-6 rounded-xl">
         <h1 className="text-3xl font-bold text-center mb-6 mt-3">Skills</h1>
-        <div className="grid grid-cols-3 gap-3 md:flex md:justify-evenly items-center text-center">
+        <div className="grid grid-cols-3 gap-3 xl:flex md:justify-evenly items-center text-center">
           <div className="flex flex-col items-center">
             <RiJavascriptFill className="w-24 h-24 rounded-xl text-yellow-300" />
             <p>JavaScript</p>
@@ -41,7 +40,7 @@ const Skills = () => {
             <BiLogoTailwindCss className="w-24 h-24 rounded-xl text-sky-400" />
             <p className="text-center">Tailwind CSS</p>
           </div>
-          <div className="flex flex-col items-center"> 
+          <div className="flex flex-col items-center">
             <FaJava className="w-24 h-24 rounded-xl text-red-800 pb-2" />
             <p className="text-center">Java</p>
           </div>

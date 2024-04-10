@@ -11,7 +11,7 @@ const Hero = () => {
     },
     {
       id: 2,
-      content: "FULL-STACK DEVELOPER",
+      content: "FULL STACK DEVELOPER",
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ const Hero = () => {
 
   return (
     <motion.div
-      className="w-full h-screen max-w-7xl mx-auto flex px-3"
+      className="w-full h-screen max-w-7xl mx-auto flex px-3 2xl:px-0"
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5, delay: 1.2 }}
@@ -42,7 +42,7 @@ const Hero = () => {
         <h1 className="text-3xl xl:text-4xl font-extrabold mt-32 px-10 xl:p-0">
           Hello, my name is Koby
         </h1>
-        <p className="text-2xl xl:text-3xl font-bold px-10 xl:px-0">
+        <p className="text-2xl xl:text-3xl font-bold px-10 2xl:px-0">
           I am a &nbsp;
           <AnimatePresence>
             <motion.span
@@ -57,6 +57,11 @@ const Hero = () => {
               {texts[index].content}
             </motion.span>
           </AnimatePresence>
+        </p>
+        <p className="text-2xl px-10 2xl:px-0">
+          I am a junior developer focusing on Full Stack Development. I
+          am committed to creating high quality web applications that are fully responsive, visually appealing, and
+          user-friendly. I am open for any opportunity that is presented to me!
         </p>
       </div>
     </motion.div>
