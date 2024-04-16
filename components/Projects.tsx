@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { FiExternalLink } from "react-icons/fi";
+import txt from "../public/txt.png";
 
 const Projects = () => {
   return (

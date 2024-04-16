@@ -29,7 +29,7 @@ const Hero = () => {
       });
     }, 2000);
     return () => clearInterval(id);
-  }, []);
+  }, [texts.length]);
 
   return (
     <motion.div
@@ -59,9 +59,10 @@ const Hero = () => {
           </AnimatePresence>
         </p>
         <p className="text-2xl px-10 2xl:px-0">
-          I am a junior developer focusing on Full Stack Development. I
-          am committed to creating high quality web applications that are fully responsive, visually appealing, and
-          user-friendly. I am open for any opportunity that is presented to me!
+          I am a junior developer focusing on Full Stack Development. I am
+          committed to creating high quality web applications that are fully
+          responsive, visually appealing, and user-friendly. I am open for any
+          opportunity that is presented to me!
         </p>
       </div>
     </motion.div>

@@ -3,11 +3,14 @@ import React from "react";
 import { motion } from "framer-motion";
 import { RiJavascriptFill, RiHtml5Fill } from "react-icons/ri";
 import { TiCss3 } from "react-icons/ti";
-import { FaJava } from "react-icons/fa";
+import { FaJava, FaReact } from "react-icons/fa";
 import { BiLogoTypescript, BiLogoTailwindCss } from "react-icons/bi";
 import { SiMongodb } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { SiPrisma } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
+
+
 
 const Skills = () => {
   return (
@@ -20,6 +23,14 @@ const Skills = () => {
       <div className="border-2 border-neutral-800 bg-neutral-600 bg-opacity-10 backdrop-blur-sm p-3 py-6 rounded-xl">
         <h1 className="text-3xl font-bold text-center mb-6 mt-3">Skills</h1>
         <div className="grid grid-cols-3 gap-3 xl:flex md:justify-evenly items-center text-center">
+          <div className="flex flex-col items-center">
+            <FaReact className="w-24 h-24 rounded-xl text-blue-400" />
+            <p>React</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <TbBrandNextjs className="w-24 h-24 rounded-xl text-white" />
+            <p>Next.js</p>
+          </div>
           <div className="flex flex-col items-center">
             <RiJavascriptFill className="w-24 h-24 rounded-xl text-yellow-300" />
             <p>JavaScript</p>
