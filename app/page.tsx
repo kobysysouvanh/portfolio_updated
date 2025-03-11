@@ -34,7 +34,6 @@ export default function Home() {
           <Contact />
         </section>
       </div>
-      <BackgroundBeams className="-z-[100] hidden fixed md:inline" />
     </div>
   );
 }

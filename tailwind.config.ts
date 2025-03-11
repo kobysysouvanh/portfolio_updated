@@ -22,6 +22,16 @@ const config: Config = {
       },
       boxShadow: {
         "glow": "0 0 35px rgba(59, 130, 246)",
+      },
+      animation: {
+        "border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
+      },
+      keyframes: {
+        "border-beam": {
+          "100%": {
+            "offset-distance": "100%"
+          }
+        }
       }
     },
   },

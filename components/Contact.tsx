@@ -1,7 +1,5 @@
 "use client";
-import React from "react";
-import { motion } from "framer-motion";
-import { MdEmail, MdOutlineEmail } from "react-icons/md";
+import { MdOutlineEmail } from "react-icons/md";
 import { SocialIcon } from "react-social-icons";
 
 const Contact = () => {
@@ -13,7 +11,7 @@ const Contact = () => {
             <MdOutlineEmail className="w-8 h-8 text-neutral-600" />
             kobysysouvanh@gmail.com
           </div>
-          <span>&copy; 2024 Koby Sysouvanh. All Rights Reserved</span>
+          <span>Made with ❤️ by Koby Sysouvanh</span>
           <div className="flex gap-2 items-center">
             <SocialIcon
               url="https://www.linkedin.com/in/kobysysouvanh/"
